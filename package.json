@@ -1,0 +1,23 @@
+{
+  "name": "rabbitmq-nodejs-demos",
+  "version": "1.0.0",
+  "description": "This repository contains RabbitMQ Demos/Tutorials with `callback-oriented` API using `amqplib` node-js library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hardikshakya/rabbitmq-nodejs-demos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hardikshakya/rabbitmq-nodejs-demos/issues"
+  },
+  "homepage": "https://github.com/hardikshakya/rabbitmq-nodejs-demos#readme",
+  "dependencies": {
+    "amqplib": "^0.6.0"
+  }
+}
