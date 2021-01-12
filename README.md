@@ -67,3 +67,7 @@ Using RabbitMQ as a `work queue`; [producer.js](d2-work-queues/producer.js) crea
 ## [Demo three: Publish/Subscribe](d3-pub-sub/README.md)
 
 Using RabbitMQ as a `broadcast mechanism`. [producer.js](d3-pub-sub/producer.js) sends a "log" message to a `fanout` exchange, and all [consumer.js](d3-pub-sub/consumer.js) processes receive log messages.
+
+## [Demo four: Routing](d4-routing/README.md)
+
+Using RabbitMQ as a `routing ('somecast') mechanism`. [producer.js](d4-routing/producer.js) sends a log message with a severity/routing key, and all [consumer.js](d4-routing/consumer.js) processes receive log messages for the severities/binding keys on which they are listening.
