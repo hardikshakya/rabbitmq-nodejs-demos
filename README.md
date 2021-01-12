@@ -71,3 +71,7 @@ Using RabbitMQ as a `broadcast mechanism`. [producer.js](d3-pub-sub/producer.js)
 ## [Demo four: Routing](d4-routing/README.md)
 
 Using RabbitMQ as a `routing ('somecast') mechanism`. [producer.js](d4-routing/producer.js) sends a log message with a severity/routing key, and all [consumer.js](d4-routing/consumer.js) processes receive log messages for the severities/binding keys on which they are listening.
+
+## [Demo five: Topics](d5-topics/README.md)
+
+With help of `topic` we can able to overcome the limitation of previous feature/demo `routing`. Here we can pass complex wildcard pattern.
