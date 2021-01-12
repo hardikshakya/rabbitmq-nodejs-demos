@@ -75,3 +75,7 @@ Using RabbitMQ as a `routing ('somecast') mechanism`. [producer.js](d4-routing/p
 ## [Demo five: Topics](d5-topics/README.md)
 
 With help of `topic` we can able to overcome the limitation of previous feature/demo `routing`. Here we can pass complex wildcard pattern.
+
+## [Demo six: RPC](d6-rpc/README.md)
+
+Using RabbitMQ as an `RPC(Remote procedure call)` intermediary, queueing requests for servers and routing replies back to clients.
