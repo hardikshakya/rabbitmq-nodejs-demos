@@ -79,3 +79,7 @@ With help of `topic` we can able to overcome the limitation of previous feature/
 ## [Demo six: RPC](d6-rpc/README.md)
 
 Using RabbitMQ as an `RPC(Remote procedure call)` intermediary, queueing requests for servers and routing replies back to clients.
+
+## [Demo seven: Priority Queue](d7-priority-queue/README.md)
+
+Using RabbitMQ as a `priority queue`, showing how to set maximum priority value supported by the queue and setting priority of each message pushed to the queue. In case of messages having equal value of priority, they are consumed in FIFO order.
