@@ -83,3 +83,7 @@ Using RabbitMQ as an `RPC(Remote procedure call)` intermediary, queueing request
 ## [Demo seven: Priority Queue](d7-priority-queue/README.md)
 
 Using RabbitMQ as a `priority queue`, showing how to set maximum priority value supported by the queue and setting priority of each message pushed to the queue. In case of messages having equal value of priority, they are consumed in FIFO order.
+
+## [Demo eight: Delay/Schedule Messages](d8-delay-message/README.md)
+
+The RabbitMQ `Delayed Message Plugin` adds a new exchange type to RabbitMQ where messages routed by that exchange can be delayed if the user adds a delay header to a message.
