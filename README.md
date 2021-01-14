@@ -87,3 +87,7 @@ Using RabbitMQ as a `priority queue`, showing how to set maximum priority value 
 ## [Demo eight: Delay/Schedule Messages](d8-delay-message/README.md)
 
 The RabbitMQ `Delayed Message Plugin` adds a new exchange type to RabbitMQ where messages routed by that exchange can be delayed if the user adds a delay header to a message.
+
+## [Demo nine: Manual Backoff](d9-manual-backoff/README.md)
+
+Using RabbitMQ to implement a basic `multiple retry mechanism` in case of processing failures in message/job consumer.
